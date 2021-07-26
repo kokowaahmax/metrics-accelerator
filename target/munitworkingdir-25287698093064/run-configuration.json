@@ -1,0 +1,78 @@
+{
+  "runToken": "a4ca8cde-5841-411b-9ff1-199bdc39a5d9",
+  "projectName": "metrics-accelerator",
+  "domainLocation": "",
+  "tags": [],
+  "testNames": [],
+  "suitePaths": [
+    "unit-test-api-call-coreservices.xml",
+    "integration-test-api-apikit.xml",
+    "unit-test-aggregator-platform-metrics.xml"
+  ],
+  "allSuitePaths": [
+    "unit-test-api-call-coreservices.xml",
+    "integration-test-api-apikit.xml",
+    "unit-test-aggregator-platform-metrics.xml"
+  ],
+  "skipAfterFailure": false,
+  "notifierConfigurations": [
+    {
+      "clazz": "org.mule.munit.remote.notifiers.ConsoleNotifier",
+      "parameters": [
+        {
+          "name": "runToken",
+          "type": "java.lang.String",
+          "value": "a4ca8cde-5841-411b-9ff1-199bdc39a5d9"
+        }
+      ]
+    }
+  ],
+  "coverageConfiguration": {
+    "runCoverage": true,
+    "randomizeCoveragePort": true,
+    "suitePaths": [
+      "unit-test-api-call-coreservices.xml",
+      "integration-test-api-apikit.xml",
+      "unit-test-aggregator-platform-metrics.xml"
+    ],
+    "ignoredFiles": [],
+    "ignoredFlowNames": []
+  },
+  "containerConfiguration": {
+    "type": "EMBEDDED",
+    "value": {
+      "mavenConfiguration": {
+        "settingsXmlFilePath": "/var/folders/f8/c3zxrv3j1c92p1qt5swcpkw00000gq/T/settings-temp-directory/492d9332-33d3-4f2e-87c0-b09bacd8f9e4.xml",
+        "globalSettingsXmlFilePath": "/Applications/AnypointStudio 2.app/Contents/MacOS/settings.xml",
+        "mavenRepositoryDirectoryPath": "/Users/qahmed/.m2/repository",
+        "offlineMode": false,
+        "forcePolicyUpdate": true,
+        "ignoreArtifactDescriptorRepositories": false,
+        "remoteRepositories": [
+          {
+            "id": "mulesoft-releases",
+            "url": "https://repository.mulesoft.org/releases/"
+          },
+          {
+            "id": "central",
+            "url": "https://repo.maven.apache.org/maven2"
+          }
+        ]
+      },
+      "serverPluginConfigurations": [
+        {
+          "groupId": "com.mulesoft.munit.plugins",
+          "artifactId": "munit-coverage-plugin",
+          "version": "2.3.0",
+          "type": "jar",
+          "classifier": "mule-server-plugin"
+        }
+      ],
+      "runtimeId": "4.2.0",
+      "product": "MULE_EE",
+      "munitWorkingDirectoryPath": "/Users/qahmed/Metrics Framework/metrics-accelerator-/target/munitworkingdir-25287698093064",
+      "log4JConfigurationFilePath": "/Users/qahmed/Metrics Framework/metrics-accelerator-/target/test-classes/log4j2-test.xml",
+      "type": "EMBEDDED"
+    }
+  }
+}
