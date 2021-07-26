@@ -1,0 +1,5 @@
+<testExecutions version="1">
+  <file path="src/test/munit/unit-test-api-call-coreservices.xml"/>
+  <file path="src/test/munit/integration-test-api-apikit.xml"/>
+  <file path="src/test/munit/unit-test-aggregator-platform-metrics.xml"/>
+</testExecutions>
